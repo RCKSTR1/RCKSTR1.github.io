@@ -3,7 +3,7 @@ title: RCKSTR
 subtitle: Developer, certified SCRUM master, the bestest
 email: rckstr@outlook.com
 description: A place to share some bits.
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: https://rckstr1.github.io # the base hostname & protocol for your site
 author: Adrian Gonzalez
 
@@ -14,7 +14,7 @@ tiles-count: 6
 # social settings
 facebook_url: https://www.facebook.com/alexgonzaleztj
 github_url: https://github.com/RCKSTR1
-linkedin_url: https://www.linkedin.com/in/adriangonzalezb/
+linkedin_url: https://www.linkedin.com/in/adriangonzalezb
 twitter_url: https://twitter.com/agonzalezTJ
 
 # build settings
