@@ -1,11 +1,11 @@
 ---
 layout: home
 title: Home
-landing-title: 'Hi, my name is Adrian'
+landing-title: 'Hola, mi nombre es Adrian'
 description: null
 image: null
 author: null
 show_tile: false
 ---
 
-I'm a full-stack software developer specialized on Microsoft technologies, lately diving into wearable apps development.
+Soy un desarrollador full-stack especializado en tecnologías Microsoft, aunque últimamente enfocado en desarrollo para wearables.

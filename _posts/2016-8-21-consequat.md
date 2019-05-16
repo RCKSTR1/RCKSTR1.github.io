@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Consequat
+title: Post 2
 description: Ipsum dolor sit amet
 image: assets/images/pic05.jpg
 ---
