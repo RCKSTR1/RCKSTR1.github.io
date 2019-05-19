@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: 'Hola, mi nombre es Adrian'
+landing-title: 'Past flying cars and time machines'
 description: null
 image: null
 author: null

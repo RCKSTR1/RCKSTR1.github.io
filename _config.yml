@@ -2,14 +2,14 @@
 title: RCKSTR
 subtitle: Melómano, Full-Stack Developer, certified SCRUM master
 email: rckstr@outlook.com
-description: My 2 cents.
+description: Lee abajo para los últimos posts o
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://rckstr1.github.io # the base hostname & protocol for your site
 author: Adrian Gonzalez
 
 # homepage tiles
 tiles-source: posts # accepts "posts" or "pages"
-tiles-count: 6
+tiles-count: 2
 
 # social settings
 facebook_url: https://www.facebook.com/alexgonzaleztj
