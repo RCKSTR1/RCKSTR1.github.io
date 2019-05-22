@@ -1,33 +1,54 @@
 <!-- Wrapper -->
 <div id="wrapper">
 
-<!-- Header -->
-<header id="header"{% if page.layout == "landing" %} class="alt style2"{% endif %}{% if page.layout == "home" %} class="alt"{% endif %}>
-	<a href="{{ "" | absolute_url }}/" class="logo"><strong>{{ site.title }}</strong> <span>{{ site.subtitle }}</span></a>
-	<nav>
-		<a href="#menu">Menu</a>
-	</nav>
-</header>
+	<!-- Header -->
+	<header id="header" {% if page.layout == "landing" %} class="alt style2" {% endif %}{% if page.layout == "home" %}
+		class="alt" {% endif %}>
+		<a href="{{ "" | absolute_url }}/" class="logo"><strong>{{ site.title }}</strong>
+			<span>{{ site.subtitle }}</span></a>
+		<nav>
+			<a href="#menu">Menu</a>
+		</nav>
+	</header>
 
-<!-- Menu -->
-<nav id="menu">
-	<ul class="links">
-        {% for page in site.pages %}
-		    {% if page.layout == "home" %}
-		        <li><a href="{{ "" | absolute_url }}/">{{ page.title }}</a></li>
-	    	{% endif %}
-		{% endfor %}
-		{% for page in site.pages %}
-		    {% if page.layout != "home" and page.nav-menu == true %}
-		        <li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
-		    {% endif %}
-		{% endfor %}
-	</ul>
-	<ul class="actions vertical">
-		<li><a href="#" class="button special fit">twitter</a></li>
-		<li><a href="#" class="button special fit">facebook</a></li>
-		<li><a href="#" class="button special fit">GitHub</a></li>
-		<li><a href="#" class="button special fit">linkedIn</a></li>
-		<li><a href="#" class="button fit">Email</a></li>
-	</ul>
-</nav>
+	<!-- Menu -->
+	<nav id="menu">
+		<ul class="links">
+			{% for page in site.pages %}
+			{% if page.layout == "home" %}
+			<li><a href="{{ "" | absolute_url }}/">{{ page.title }}</a></li>
+			{% endif %}
+			{% endfor %}
+			{% for page in site.pages %}
+			{% if page.layout != "home" and page.nav-menu == true %}
+			<li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
+			{% endif %}
+			{% endfor %}
+		</ul>
+		<ul class="actions vertical">
+			{% if site.twitter_url %}
+			<li><a href="{{ site.twitter_url }}" class="button special fit">twitter</a></li>
+			{% endif %}
+			{% if site.facebook_url %}
+			<li><a href="{{ site.facebook_url }}" class="button special fit">facebook</a></li>
+			{% endif %}
+			{% if site.instagram_url %}
+			<li><a href="{{ site.instagram_url }}" class="button special fit">instragram</a></li>
+			{% endif %}
+			{% if site.pinterest_url %}
+			<li><a href="{{ site.pinterest_url }}" class="button special fit">Pinterest</a></li>
+			{% endif %}
+			{% if site.gitlab_url %}
+			<li><a href="{{ site.gitlab_url }}" class="button special fit">GitLab</a></li>
+			{% endif %}
+			{% if site.github_url %}
+			<li><a href="{{ site.github_url }}" class="button special fit">GitHub</a></li>
+			{% endif %}
+			{% if site.linkedin_url %}
+			<li><a href="{{ site.linkedin_url }}" class="button special fit">LinkedIn</a></li>
+			{% endif %}
+			{% if site.stackoverflow_url %}
+			<li><a href="{{ site.stackoverflow_url }}" class="button special fit">Stack Overflow</a></li>
+			{% endif %}
+		</ul>
+	</nav>
