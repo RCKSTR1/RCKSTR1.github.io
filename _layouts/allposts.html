@@ -22,53 +22,35 @@
         <header class="major">
           <h1>Todos los posts</h1>
         </header>
-        <div class="box alt">
-          <div class="row uniform">
-            {% for post in site.posts %}
-            <div class="3u">
-              {% if post.image %}
-              <span class="image fit"><img src="{{ site.baseurl }}/{{ post.image }}" alt="" /></span>
-              {% endif %}
-            </div>
 
-            <div class="3u">
-              {% if post.title != 404 %}
-              <h3>{{ post.title }}</h3>
-              {% endif %}
-              <ul class="alt">
-                  {% if post.date %}<li>{{ post.date }}</li>{% endif %}
-                  
+        <div class="row uniform">
+          {% if site.posts %}
+          {% for post in site.posts %}
+          <div class="6u 12u(medium)">
+
+            {% if post.image %}
+            <span class="image left"><img src="{{ site.baseurl }}/{{ post.image }}" alt="" /></span>
+            {% endif %}
+
+            {% if post.title != 404 %}
+            <h3>{{ post.title }}</h3>
+            {% endif %}
+
+            <ul class="alt">
+              {% if post.date %}<li>{{ post.date }}</li>{% endif %}
+
               {% if post.content %}
               <li>{{ post.description }}</li>
               {% endif %}
-                </ul>
-              
-            </div>
-
-
-            {% endfor %}
-            <div class="4u"><span class="image fit"><img src="assets/images/pic08.jpg" alt="" /></span>
-            </div>
-            <div class="4u"><span class="image fit"><img src="assets/images/pic09.jpg" alt="" /></span>
-            </div>
-            <div class="4u$"><span class="image fit"><img src="assets/images/pic10.jpg" alt="" /></span>
-            </div>
-            <!-- Break -->
-            <div class="4u"><span class="image fit"><img src="assets/images/pic10.jpg" alt="" /></span>
-            </div>
-            <div class="4u"><span class="image fit"><img src="assets/images/pic08.jpg" alt="" /></span>
-            </div>
-            <div class="4u$"><span class="image fit"><img src="assets/images/pic09.jpg" alt="" /></span>
-            </div>
-            <!-- Break -->
-            <div class="4u"><span class="image fit"><img src="assets/images/pic09.jpg" alt="" /></span>
-            </div>
-            <div class="4u"><span class="image fit"><img src="assets/images/pic10.jpg" alt="" /></span>
-            </div>
-            <div class="4u$"><span class="image fit"><img src="assets/images/pic08.jpg" alt="" /></span>
-            </div>
+            </ul>
           </div>
+          {% endfor %}
+          {% else %}
+          <h2>Ningún post todavía. </h2>
+          <span class="image fit"><img src="assets/images/this_is_fine.jpg" alt="" /></span>
+          {% endif %}
         </div>
+
       </div>
     </section>
 
