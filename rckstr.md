@@ -61,7 +61,7 @@ nav-menu: true
 					</p>
 					<p>
 						Además de desarrollo de software, me he dedicado al mismo tiempo a la administracion de
-						servidores (IIS, SQL, Forefront), administración de dominio, así como he coordinado equipos de
+						servidores (IIS, SQL, Hyper-V, Exchange), administración de dominio, así como he coordinado equipos de
 						soporte.
 					</p>
 				</div>
