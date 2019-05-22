@@ -2,7 +2,7 @@
 title: RCKSTR
 subtitle: Melómano, Full-Stack Developer, certified SCRUM master
 email: rckstr@outlook.com
-description: Escribo sobre desarrollo, música, tecnología, teorías de conspiración (not).
+description: Blog sobre desarrollo de software, mejores prácticas, frameworks, lenguajes, y otros temas relacionados en español.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://rckstr1.github.io # the base hostname & protocol for your site
 author: Adrian Gonzalez
@@ -16,6 +16,7 @@ facebook_url: https://www.facebook.com/alexgonzaleztj
 github_url: https://github.com/RCKSTR1
 linkedin_url: https://www.linkedin.com/in/adriangonzalezb
 twitter_url: https://twitter.com/agonzalezTJ
+stackoverflow_url: https://stackoverflow.com/users/2088213/rckstr
 
 # build settings
 markdown: kramdown
