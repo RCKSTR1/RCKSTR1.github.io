@@ -27,22 +27,37 @@
           {% if site.posts.size != 0 %}
           {% for post in site.posts %}
           <div class="6u 12u(medium)">
+            <div class="row">
+              <div class="12u">
+                {% if post.image %}
+                <a href="{{ post.url  | relative_url }}">
+                  <span class="image left"><img src="{{ site.baseurl }}/{{ post.image }}" alt="" /></span>
+                </a>
+                {% endif %}
 
-            {% if post.image %}
-            <span class="image left"><img src="{{ site.baseurl }}/{{ post.image }}" alt="" /></span>
+                {% if post.title != 404 %}
+                <a href="{{ post.url  | relative_url }}">
+                  <h3>{{ post.title }}</h3>
+                </a>
+                {% endif %}
+                {% if post.date %}
+                <a href="{{ post.url  | relative_url }}">
+                  {{ post.date | date: '%B %d, %Y' }}
+                </a>
+                {% endif %}
+              </div>
+            </div>
+
+            {% if post.content %}
+            <div class="row">
+              <div class="12u">
+                <a href="{{ post.url  | relative_url }}">
+                  {{ post.description }}
+                </a>
+              </div>
+            </div>
             {% endif %}
 
-            {% if post.title != 404 %}
-            <h3>{{ post.title }}</h3>
-            {% endif %}
-
-            <ul class="alt">
-              {% if post.date %}<li>{{ post.date }}</li>{% endif %}
-
-              {% if post.content %}
-              <li>{{ post.description }}</li>
-              {% endif %}
-            </ul>
           </div>
           {% endfor %}
           {% else %}

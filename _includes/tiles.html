@@ -7,7 +7,8 @@
     </span>
     <header class="major">
       <h3><a href="{{ post.url  | relative_url }}" class="link">{{ post.title }}</a></h3>
-      <p>{{ post.description }}</p>
+      <h4>{{ post.date | date: '%B %d, %Y' }}</h4>
+      <p style="text-align: justify;">{{ post.description }}</p>
     </header>
   </article>
   {% endif %}

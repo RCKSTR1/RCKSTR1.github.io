@@ -22,7 +22,8 @@
 		<header class="major">
 			<h1>{{ page.title }}</h1>
 		</header>
-		{% if page.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ page.image }}" alt="" /></span>{% endif %}
+		{% if page.image %}<span class="image main" style="overflow: hidden; height: 20em;"><img src="{{ site.baseurl }}/{{ page.image }}" alt="" /></span>{% endif %}
+		<h4>{{ page.date | date: '%B %d, %Y' }}</h4>
 		{{ content }}
 	</div>
 </section>
