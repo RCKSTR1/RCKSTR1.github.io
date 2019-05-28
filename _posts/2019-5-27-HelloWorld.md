@@ -2,7 +2,7 @@
 layout: post
 title: Hello World
 description: Este post es mi manera de decir gracias a todos los que de alguna manera me ayudaron a convertirme en lo que siempre quise desde que era un niño.
-image: assets/images/blog/HelloWorld/hello.png
+image: /assets/images/blog/HelloWorld/hello.png
 ---
 
 <div class="post-content">
