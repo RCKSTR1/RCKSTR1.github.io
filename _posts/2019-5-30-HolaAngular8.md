@@ -2,7 +2,7 @@
 layout: post
 title: Hola Angular 8!
 description: Todo lo que necesitas para crear tu primera app con Angular 8.
-image: assets/images/blog/HelloWorld/hello.png
+image: assets/images/blog/Angular8/Angular8.png
 ---
 
 <div class="post-content">
@@ -69,6 +69,7 @@ image: assets/images/blog/HelloWorld/hello.png
 
     <h4>En Windows o MacOS</h4>
     <ol>
+        <span class="image left"><img src="/assets/images/blog/Angular8/01-NodeInstall.png" alt="" /></span>
         <li>Utilizando cualquier navegador, ve a www.nodejs.org y descarga la versión más reciente.</li>
         <li>Ejecuta el archivo descargado e instala Node.js.</li>
         <li>Antes de continuar al siguiente paso, comprobamos la instalación ejecutando la siguiente línea en la
@@ -87,6 +88,7 @@ image: assets/images/blog/HelloWorld/hello.png
     </code></pre>
 
     <h3>Visual Studio Code (o cualquier otro editor de código)</h3>
+    <span class="image left"><img src="/assets/images/blog/Angular8/01-NodeInstall.png" alt="" /></span>
     <p>Este paso es opcional. Puedes usar el editor de código que más te guste. Visual Studio Code es mi favorito por la
         cantidad de extensiones disponibles y la terminal integrada. Si prefieres no usar Visual Studio Code puedes
         omitir esta parte.</p>
