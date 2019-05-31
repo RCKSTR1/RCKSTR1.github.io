@@ -61,34 +61,32 @@ image: assets/images/blog/Angular8/Angular8.png
     <h4>En Linux (Debian)</h4>
     <p>Los siguientes comandos funcionan en distribuciones de Linux basadas en Debian. Si usas otra distribución, En la
         terminal del sistema, ejecuta las siguientes líneas:</p>
-    <pre><code>
-        sudo curl -sL https://deb.nodesource.com/setup_12.x | sudo bash -
+    <pre><code>sudo curl -sL https://deb.nodesource.com/setup_12.x | sudo bash -
         
-        sudo apt-get install -y nodejs
-    </code></pre>
+        sudo apt-get install -y nodejs</code></pre>
 
     <h4>En Windows o MacOS</h4>
     <ol>
-        <span class="image left"><img src="/assets/images/blog/Angular8/01-NodeInstall.png" alt="" /></span>
+        <span class="image right"><a href="/assets/images/blog/Angular8/01-NodeInstall.png" target="_blank"><img
+                    src="/assets/images/blog/Angular8/01-NodeInstall.png" alt="" /></a></span>
         <li>Utilizando cualquier navegador, ve a www.nodejs.org y descarga la versión más reciente.</li>
         <li>Ejecuta el archivo descargado e instala Node.js.</li>
         <li>Antes de continuar al siguiente paso, comprobamos la instalación ejecutando la siguiente línea en la
             terminal:</li>
-        <pre><code>
-            npm -v
-        </code></pre>
+        <pre><code>npm -v</code></pre>
     </ol>
 
     <h3>Angular CLI</h3>
+    <span class="image left"><a href="/assets/images/blog/Angular8/02-AngularCLIInstall.png" target="_blank"><img
+                src="/assets/images/blog/Angular8/02-AngularCLIInstall.png" alt="" /></a></span>
     <p>La interfaz de línea de comandos o CLI, es una herramienta que usaremos para inicializar, desarrollar y mantener
         nuestras aplicaciones. Para instalar Angular CLI ejecuta la siguiente línea en la terminal (es posible que
         necesites permisos de root o administrador):</p>
-    <pre><code>
-        npm install -f @angular/cli
-    </code></pre>
+    <pre><code>npm install -f @angular/cli</code></pre>
 
     <h3>Visual Studio Code (o cualquier otro editor de código)</h3>
-    <span class="image left"><img src="/assets/images/blog/Angular8/01-NodeInstall.png" alt="" /></span>
+    <span class="image left"><a href="/assets/images/blog/Angular8/03-VSCodeDownload.png" target="_blank"><img
+                src="/assets/images/blog/Angular8/03-VSCodeDownload.png" alt="" /></a></span>
     <p>Este paso es opcional. Puedes usar el editor de código que más te guste. Visual Studio Code es mi favorito por la
         cantidad de extensiones disponibles y la terminal integrada. Si prefieres no usar Visual Studio Code puedes
         omitir esta parte.</p>
@@ -114,6 +112,8 @@ image: assets/images/blog/Angular8/Angular8.png
         para abrir la vista de extensiones.</p>
 
     <h5>Angular Language Service</h5>
+    <span class="image left"><a href="/assets/images/blog/Angular8/04-AngularLanguageService.png" target="_blank"><img
+                src="/assets/images/blog/Angular8/04-AngularLanguageService.png" alt="" /></a></span>
     <p>Esta extensión provee una mejor experiencia al trabajar con plantillas de Angular con características como listas
         de autocompletado, mensajes de diagnóstico AOT, opciones para ver la definición de variables u objetos.</p>
     <ol>
@@ -123,6 +123,8 @@ image: assets/images/blog/Angular8/Angular8.png
     </ol>
 
     <h5>TSLint</h5>
+    <span class="image left"><a href="/assets/images/blog/Angular8/05-TSLint.png" target="_blank"><img
+                src="/assets/images/blog/Angular8/05-TSLint.png" alt="" /></a></span>
     <p>TSLint es una herramienta de análisis de código TypeScript que revisa legibilidad, facilidad de mantenimiento y
         errores de funcionalidad. Puede personalizarse con tus propias reglas, configuraciones y formateadores.</p>
     <ol>
@@ -132,6 +134,8 @@ image: assets/images/blog/Angular8/Angular8.png
     </ol>
 
     <h5>Visual Studio IntelliCode</h5>
+    <span class="image left"><a href="/assets/images/blog/Angular8/06-IntelliCode.png" target="_blank"><img
+                src="/assets/images/blog/Angular8/06-IntelliCode.png" alt="" /></a></span>
     <p>Esta extensión provee características asistidas por inteligencia artificial para varios lenguajes de programación
         basadas en contexto y machine learning.</p>
     <ol>
@@ -141,14 +145,19 @@ image: assets/images/blog/Angular8/Angular8.png
     </ol>
 
     <h4>Tipo de letra Fira Code (opcional)</h4>
+    <span class="image left"><a href="/assets/images/blog/Angular8/12-FiraCode.png" target="_blank"><img
+                src="/assets/images/blog/Angular8/12-FiraCode.png" alt="" /></a></span>
     <p>Fira Code es una extensión del tipo de letra Fira Mono, que contiene ligaduras para combinaciones multicaracter
         más comunes en programación. Esta característica ayuda a leer y entender código más rápidamente.</p>
     <ol>
-        <li>Utilizando cualquier navegador, ve a github.com/tonsky/FiraCode y descarga los archivos del repositorio</li>
+        <li>Utilizando cualquier navegador, ve a <a href="http://github.com/tonsky/FiraCode"
+                target="_blank">github.com/tonsky/FiraCode</a> y descarga los archivos del repositorio</li>
         <li>Instala el tipo de letra en tu computadora. En mi caso, instalé los archivos OpenType.</li>
     </ol>
 
     <h5>Configurar Fira Code en Visual Studio Code</h5>
+    <span class="image left"><a href="/assets/images/blog/Angular8/07-FiraCodeSettings.png" target="_blank"><img
+                src="/assets/images/blog/Angular8/07-FiraCodeSettings.png" alt="" /></a></span>
     <ol>
         <li>En la ventana de Visual Studio Code, presiona CTRL+, en Windows o Linux, o CMD+, en MacOS para abrir la
             pantalla de configuración.</li>
@@ -158,6 +167,8 @@ image: assets/images/blog/Angular8/Angular8.png
     </ol>
 
     <h2>Paso 2: Crear nuestra primera app con Angular 8</h2>
+    <span class="image left"><a href="/assets/images/blog/Angular8/08-CreateApp.png" target="_blank"><img
+                src="/assets/images/blog/Angular8/08-CreateApp.png" alt="" /></a></span>
     <ol>
         <li>Desde la terminal, navega al folder en donde quieres crear tu aplicación. Yo decidí crear un folder nuevo
             para guardar mis apps.</li>
@@ -175,6 +186,8 @@ image: assets/images/blog/Angular8/Angular8.png
     </ol>
 
     <h3>Ejecuta la aplicación</h3>
+    <span class="image left"><a href="/assets/images/blog/Angular8/09-VSCodeOpenFolder.png" target="_blank"><img
+                src="/assets/images/blog/Angular8/09-VSCodeOpenFolder.png" alt="" /></a></span>
     <p>A partir de este paso, comienza a utilizar la terminal integrada de Visual Studio Code, si prefieres otro editor
         de código, puedes seguir usando la terminal de tu sistema operativo para ejecutar comandos.</p>
     <ol>
@@ -185,13 +198,9 @@ image: assets/images/blog/Angular8/Angular8.png
         <li>En la barra de menú, has clic en “View” y después en la opción “Terminal” para abrir la terminal integrada.
         </li>
         <li>Desde esta terminal puedes ejecutar tu aplicación escribiendo:</li>
-        <pre><code>
-                ng serve
-            </code></pre>
-        <p>o</p>
-        <pre><code>
-                    ng serve --open
-                </code></pre>
+        <span class="image left"><a href="/assets/images/blog/Angular8/10-VSCodeConsole.png" target="_blank"><img
+                    src="/assets/images/blog/Angular8/10-VSCodeConsole.png" alt="" /></a></span>
+        <pre><code>ng serve --open</code></pre>
         <p>La diferencia entre estas dos opciones es que si usas “-- open” la aplicación se abre automáticamente en tu
             navegador predeterminado, de otra manera, tendrías que ejecutar cualquier navegador y abrir
             http://localhost:4200.</p>
@@ -202,6 +211,8 @@ image: assets/images/blog/Angular8/Angular8.png
     <p>Para dejar de ejecutar tu aplicación, presiona CTRL+C en la terminal.</p>
 
     <h2>Conclusión</h2>
+    <span class="image left"><a href="/assets/images/blog/Angular8/11-AppRuns.png" target="_blank"><img
+                src="/assets/images/blog/Angular8/11-AppRuns.png" alt="" /></a></span>
     <p>Ahora ya tienes lo necesario para comenzar a escribir aplicaciones web, móviles o de escritorio con Angular 8.
     </p>
     <p>El código fuente completo de la aplicación de ejemplo puedes encontrarlo en GitHub, en
@@ -211,6 +222,9 @@ image: assets/images/blog/Angular8/Angular8.png
         https://github.com/RCKSTR1/Angular8RCSTR-APP.git</p>
     <p>Si tuviste algún problema o duda al seguir los pasos, o si tienes alguna pregunta acerca de este post, contáctame
         en Twitter, Facebook o LinkedIn.</p>
+    <p>
+        <strong>Es cuánto.</strong>
+    </p>
 
     <h2>Fuentes</h2>
     <ul>
@@ -218,68 +232,4 @@ image: assets/images/blog/Angular8/Angular8.png
         <li>Guía de setup de Angular. <a href="https://angular.io/guide/setup-local"
                 target="_blank">https://angular.io/guide/setup-local</a></li>
     </ul>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    -contenido nuevo-
-    <p>Mi nombre es Adrian, soy de Tijuana, Baja California, “la ciudad mas peligrosa del mundo” dicen algunos. Pero a
-        mi no me ha traído mas que cosas buenas. Aquí nací y crecí. Es una ciudad llena de oportunidades, que tiene
-        oídos para las buenas ideas, sin importar de donde vengan.</p>
-
-    <p>Soy de los afortunados que tuvieron la oportunidad de convertirse en lo que querían ser desde niños. Yo no quería
-        ser ni bombero ni astronauta, sino que esperaba los días de escuela en que nos llevaban al laboratorio de
-        computación, a dibujar en Paint con Windows 95, o jugar algún juego en la computadora.</p>
-
-    <p>Un día, cuando tenía 8 años, en lugar de abrir Word, o Paint, llegamos al laboratorio y en las pantallas había
-        una ventana desconocida, era el IDE de LOGO. La profesora Vicky nos contó una historia acerca de una tortuga, y
-        escribió en el pizarrón 4 “palabras mágicas” necesarias para mover a la tortuga. Ese fue el día que escribí mi
-        primera línea de código, Ahora podía hacer dibujos escribiendo líneas de código y ver como se iban dibujando en
-        la pantalla. Y ya. desde entonces lo que yo quería hacer era tener una computadora y escribir código para hacer
-        dibujos y regalárselos a todo el mundo.</p>
-
-    <p style="text-align:center !important;">
-        <span class="image"><img src="/assets/images/blog/HelloWorld/logo_mit.png"></span>
-        <br><i>LOGO. Existe una version moderna del ide online:
-            <a href="https://turtleacademy.com/" target="_blank">https://turtleacademy.com/</a>
-        </i>
-    </p>
-
-    <p>Pasaron algunos años, y ahora estaba en la universidad. Con las mismas ganas de escribir código en una
-        computadora, pero ahora acompañado de personas que igual que yo, habían decidido en algún punto de sus vidas,
-        escribir código, o hacer redes, o diseñar microprocesadores.</p>
-
-    <p>Fast forward al 2019, tengo 31 años, soy desarrollador de software, desde 2007 especializado en tecnologías de
-        Microsoft, aunque últimamente incursionando en la realidad aumentada. Hace un año, recibí la invitación de
-        LinkedIn para el programa de Career Advisors, me pareció una manera interesante de contribuir a otros con mi
-        grano de arena. Sin embargo, hace tiempo que me vengo dando cuenta de los efectos que la barrera del lenguaje
-        tiene en el desarrollo de software, de la desventaja que puede representar para las personas que no pueden
-        adquirir conocimiento porque no han tenido el tiempo o la oportunidad de aprender inglés.</p>
-
-    <p>Este blog es mi manera de decir gracias a todos de los que he aprendido algo y que de alguna manera me ayudaron a
-        convertirme en lo que siempre quise desde que era un niño.</p>
-
-    <p>Sinceramente, espero alguno de estos días poder escribir algo que le ayude a alguien a escribir su primera línea
-        de código.</p>
-
-    <p>
-        <strong>Es cuánto.</strong>
-    </p>
 </div>
