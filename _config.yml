@@ -1,5 +1,5 @@
 # site settings
-title: RCKSTR1
+title: RCKSTR1 en GitHub
 subtitle: Melómano, Full-Stack Developer, certified SCRUM master
 email: rckstr@outlook.com
 description: Blog sobre desarrollo de software, mejores prácticas, frameworks, lenguajes, y otros temas relacionados en español.
@@ -12,7 +12,7 @@ tiles-source: posts # accepts "posts" or "pages"
 tiles-count: 2
 
 # social settings
-facebook_url: https://www.facebook.com/alexgonzaleztj
+facebook_url: https://www.facebook.com/rckstrblog
 github_url: https://github.com/RCKSTR1
 linkedin_url: https://www.linkedin.com/in/adriangonzalezb
 twitter_url: https://twitter.com/agonzalezTJ
