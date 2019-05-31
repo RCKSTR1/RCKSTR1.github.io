@@ -120,6 +120,117 @@ image: assets/images/blog/HelloWorld/hello.png
             “Install”</li>
     </ol>
 
+    <h5>TSLint</h5>
+    <p>TSLint es una herramienta de análisis de código TypeScript que revisa legibilidad, facilidad de mantenimiento y
+        errores de funcionalidad. Puede personalizarse con tus propias reglas, configuraciones y formateadores.</p>
+    <ol>
+        <li>En el campo de búsqueda, escribe “TSLint” (sin comillas).</li>
+        <li>En la lista de resultados, selecciona la extensión “TSLint” de Microsoft y después haz clic en “Install”.
+        </li>
+    </ol>
+
+    <h5>Visual Studio IntelliCode</h5>
+    <p>Esta extensión provee características asistidas por inteligencia artificial para varios lenguajes de programación
+        basadas en contexto y machine learning.</p>
+    <ol>
+        <li>En el campo de búsqueda, escribe “IntelliCode” (sin comillas).</li>
+        <li>En la lista de resultados, selecciona la extensión “Visual Studio IntelliCode” y después haz clic en
+            “Install”.</li>
+    </ol>
+
+    <h4>Tipo de letra Fira Code (opcional)</h4>
+    <p>Fira Code es una extensión del tipo de letra Fira Mono, que contiene ligaduras para combinaciones multicaracter
+        más comunes en programación. Esta característica ayuda a leer y entender código más rápidamente.</p>
+    <ol>
+        <li>Utilizando cualquier navegador, ve a github.com/tonsky/FiraCode y descarga los archivos del repositorio</li>
+        <li>Instala el tipo de letra en tu computadora. En mi caso, instalé los archivos OpenType.</li>
+    </ol>
+
+    <h5>Configurar Fira Code en Visual Studio Code</h5>
+    <ol>
+        <li>En la ventana de Visual Studio Code, presiona CTRL+, en Windows o Linux, o CMD+, en MacOS para abrir la
+            pantalla de configuración.</li>
+        <li>Una vez en la pantalla de configuración, haz clic en “Text Editor” y después en la opción “Font”.</li>
+        <li>En el campo “Font Family” escribe “Fira Code” (sin comillas).</li>
+        <li>Activa la casilla “Font Ligatures”</li>
+    </ol>
+
+    <h2>Paso 2: Crear nuestra primera app con Angular 8</h2>
+    <ol>
+        <li>Desde la terminal, navega al folder en donde quieres crear tu aplicación. Yo decidí crear un folder nuevo
+            para guardar mis apps.</li>
+        <li>Una vez dentro del folder donde vas a crear tu app, escribe el siguiente comando:</li>
+        <pre><code>
+        ng new [nombre de tu app]
+    </code></pre>
+        <p>Angular CLI comenzará a crear tu aplicación y te presentará algunas opciones. Primero debes indicar si
+            quieres agregar Angular Routing a tu app, por lo general vas a necesitarlo, selecciona la opción para
+            agregarlo.</p>
+        <p>Después, debes especificar el formato de estilos que va a usar la aplicación, para este caso selecciona CSS.
+        </p>
+        <p>Por último, indica si deseas compartir datos de uso con Google.</p>
+        <p>Ahora verifica que se creó un folder con el nombre de tu nueva aplicación.</p>
+    </ol>
+
+    <h3>Ejecuta la aplicación</h3>
+    <p>A partir de este paso, comienza a utilizar la terminal integrada de Visual Studio Code, si prefieres otro editor
+        de código, puedes seguir usando la terminal de tu sistema operativo para ejecutar comandos.</p>
+    <ol>
+        <li>Abre Visual Studio Code y haz clic en el primer icono de la barra de actividad para mostrar el explorador de
+            archivos.</li>
+        <li>Haz clic en el botón “Open Folder” y selecciona el folder de tu nueva aplicación para que Visual Studio Code
+            muestre los contenidos de tu aplicación en el explorador de archivos.</li>
+        <li>En la barra de menú, has clic en “View” y después en la opción “Terminal” para abrir la terminal integrada.
+        </li>
+        <li>Desde esta terminal puedes ejecutar tu aplicación escribiendo:</li>
+        <pre><code>
+                ng serve
+            </code></pre>
+        <p>o</p>
+        <pre><code>
+                    ng serve --open
+                </code></pre>
+        <p>La diferencia entre estas dos opciones es que si usas “-- open” la aplicación se abre automáticamente en tu
+            navegador predeterminado, de otra manera, tendrías que ejecutar cualquier navegador y abrir
+            http://localhost:4200.</p>
+    </ol>
+
+    <p>Mientras la aplicación se está ejecutando, la ventana del navegador se actualiza automáticamente después de
+        guardar cualquier cambio en tu código.</p>
+    <p>Para dejar de ejecutar tu aplicación, presiona CTRL+C en la terminal.</p>
+
+    <h2>Conclusión</h2>
+    <p>Ahora ya tienes lo necesario para comenzar a escribir aplicaciones web, móviles o de escritorio con Angular 8.
+    </p>
+    <p>El código fuente completo de la aplicación de ejemplo puedes encontrarlo en GitHub, en
+        <a href="https://github.com/RCKSTR1/Angular8RCSTR-APP"
+            target="_blank">https://github.com/RCKSTR1/Angular8RCSTR-APP</a> o si prefieres, puedes clonar el
+        repositorio directo en
+        https://github.com/RCKSTR1/Angular8RCSTR-APP.git</p>
+    <p>Si tuviste algún problema o duda al seguir los pasos, o si tienes alguna pregunta acerca de este post, contáctame
+        en Twitter, Facebook o LinkedIn.</p>
+
+    <h2>Fuentes</h2>
+    <ul>
+        <li>Documentación de Angular. <a href="https://angular.io/docs" target="_blank">https://angular.io/docs</a></li>
+        <li>Guía de setup de Angular. <a href="https://angular.io/guide/setup-local"
+                target="_blank">https://angular.io/guide/setup-local</a></li>
+    </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
