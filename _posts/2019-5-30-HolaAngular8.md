@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hola Angular 8!
+title: ¡Hola Angular 8!
 description: Todo lo que necesitas para crear tu primera app con Angular 8.
 image: assets/images/blog/Angular8/Angular8.png
 ---
@@ -15,29 +15,43 @@ image: assets/images/blog/Angular8/Angular8.png
         El desarrollo de aplicaciones con angular, involucra HTML, CSS y TypeScript que posteriormente es compilado a
         JavaScript.</p>
     <p>Usar Angular proporciona ventajas como:</p>
-    <h3>1. Soporte para Single Page Applications (SPA)</h3>
-    <p>SPAs son un tipo de aplicación web que cargan una sola página HTML, esta página es actualizada dinámicamente
-        deacuerdo a la interacción del usuario con la aplicación sin tener que recargar la página completa.</p>
 
-    <h3>2. Two-way data binding</h3>
-    <p>Esta característica nos permite actualizar datos de manera automática en dos vías. Es decir, si nuestra fuente de
-        datos cambia, la interfaz actualiza los datos, y viceversa.</p>
+    <div class="row">
+        <h3>1. Soporte para Single Page Applications (SPA)</h3>
+        <p>SPAs son un tipo de aplicación web que cargan una sola página HTML, esta página es actualizada dinámicamente
+            de acuerdo a la interacción del usuario con la aplicación sin tener que recargar la página completa.</p>
+    </div>
 
-    <h3>3. Modularidad</h3>
-    <p>Por diseño, el código de nuestra aplicación está organizado en módulos. Un módulo está relacionado a grupos de
-        componentes, directivas, pipes y servicios.</p>
-    <p>La modularidad también provee otros beneficios en Angular, como la habilidad de cargar solamente los componentes
-        que necesitamos, conocida como Lazy-Loading.</p>
-
-    <h3>4. Requiere escribir menos código</h3>
-    <p>A todos nos gusta escribir menos código, que al mismo tiempo sea más efectivo. Angular soporta la arquitectura
-        MVC (Model-View-Controller). Adaptarnos a este diseño nos permite escribir menos código y hace más fácil
-        implementar buenas prácticas.</p>
-
-    <h3>5. Interfaz de usuario declarativa</h3>
-    <p>Nos permite definir la interfaz de usuario utilizando HTML de manera intuitiva y menos compleja que hacerlo con
-        JavaScript. No tenemos que preocuparnos por el orden en que se cargan los componentes o el flujo del programa.
-    </p>
+    <div class="row">
+        <h3>2. Two-way data binding</h3>
+        <p>Esta característica nos permite actualizar datos de manera automática en dos vías. Es decir, si nuestra
+            fuente de
+            datos cambia, la interfaz actualiza los datos, y viceversa.</p>
+    </div>
+    <div class="row">
+        <h3>3. Modularidad</h3>
+        <p>Por diseño, el código de nuestra aplicación está organizado en módulos. Un módulo está relacionado a grupos
+            de
+            componentes, directivas, pipes y servicios.</p>
+        <p>La modularidad también provee otros beneficios en Angular, como la habilidad de cargar solamente los
+            componentes
+            que necesitamos, conocida como Lazy-Loading.</p>
+    </div>
+    <div class="row">
+        <h3>4. Requiere escribir menos código</h3>
+        <p>A todos nos gusta escribir menos código, que al mismo tiempo sea más efectivo. Angular soporta la
+            arquitectura
+            MVC (Model-View-Controller). Adaptarnos a este diseño nos permite escribir menos código y hace más fácil
+            implementar buenas prácticas.</p>
+    </div>
+    <div class="row">
+        <h3>5. Interfaz de usuario declarativa</h3>
+        <p>Nos permite definir la interfaz de usuario utilizando HTML de manera intuitiva y menos compleja que hacerlo
+            con
+            JavaScript. No tenemos que preocuparnos por el orden en que se cargan los componentes o el flujo del
+            programa.
+        </p>
+    </div>
 
     <p>En los últimos días, se liberó la versión 8 de Angular. En esta versión se mejoraron los tiempos de arranque de
         las aplicaciones y se incluyen nuevos API para interactuar con la CLI.</p>
@@ -62,19 +76,20 @@ image: assets/images/blog/Angular8/Angular8.png
     <p>Los siguientes comandos funcionan en distribuciones de Linux basadas en Debian. Si usas otra distribución, En la
         terminal del sistema, ejecuta las siguientes líneas:</p>
     <pre><code>sudo curl -sL https://deb.nodesource.com/setup_12.x | sudo bash -
-        
-        sudo apt-get install -y nodejs</code></pre>
+sudo apt-get install -y nodejs</code></pre>
 
     <h4>En Windows o MacOS</h4>
-    <ol>
-        <span class="image right"><a href="/assets/images/blog/Angular8/01-NodeInstall.png" target="_blank"><img
-                    src="/assets/images/blog/Angular8/01-NodeInstall.png" alt="" /></a></span>
-        <li>Utilizando cualquier navegador, ve a www.nodejs.org y descarga la versión más reciente.</li>
-        <li>Ejecuta el archivo descargado e instala Node.js.</li>
-        <li>Antes de continuar al siguiente paso, comprobamos la instalación ejecutando la siguiente línea en la
-            terminal:</li>
-        <pre><code>npm -v</code></pre>
-    </ol>
+    <div class="row">
+        <ol>
+            <span class="image right"><a href="/assets/images/blog/Angular8/01-NodeInstall.png" target="_blank"><img
+                        src="/assets/images/blog/Angular8/01-NodeInstall.png" alt="" /></a></span>
+            <li>Utilizando cualquier navegador, ve a www.nodejs.org y descarga la versión más reciente.</li>
+            <li>Ejecuta el archivo descargado e instala Node.js.</li>
+            <li>Antes de continuar al siguiente paso, comprobamos la instalación ejecutando la siguiente línea en la
+                terminal:</li>
+            <pre><code>npm -v</code></pre>
+        </ol>
+    </div>
 
     <h3>Angular CLI</h3>
     <span class="image left"><a href="/assets/images/blog/Angular8/02-AngularCLIInstall.png" target="_blank"><img
@@ -85,7 +100,7 @@ image: assets/images/blog/Angular8/Angular8.png
     <pre><code>npm install -f @angular/cli</code></pre>
 
     <h3>Visual Studio Code (o cualquier otro editor de código)</h3>
-    <span class="image left"><a href="/assets/images/blog/Angular8/03-VSCodeDownload.png" target="_blank"><img
+    <span class="image right"><a href="/assets/images/blog/Angular8/03-VSCodeDownload.png" target="_blank"><img
                 src="/assets/images/blog/Angular8/03-VSCodeDownload.png" alt="" /></a></span>
     <p>Este paso es opcional. Puedes usar el editor de código que más te guste. Visual Studio Code es mi favorito por la
         cantidad de extensiones disponibles y la terminal integrada. Si prefieres no usar Visual Studio Code puedes
@@ -112,7 +127,7 @@ image: assets/images/blog/Angular8/Angular8.png
         para abrir la vista de extensiones.</p>
 
     <h5>Angular Language Service</h5>
-    <span class="image left"><a href="/assets/images/blog/Angular8/04-AngularLanguageService.png" target="_blank"><img
+    <span class="image right"><a href="/assets/images/blog/Angular8/04-AngularLanguageService.png" target="_blank"><img
                 src="/assets/images/blog/Angular8/04-AngularLanguageService.png" alt="" /></a></span>
     <p>Esta extensión provee una mejor experiencia al trabajar con plantillas de Angular con características como listas
         de autocompletado, mensajes de diagnóstico AOT, opciones para ver la definición de variables u objetos.</p>
@@ -123,7 +138,7 @@ image: assets/images/blog/Angular8/Angular8.png
     </ol>
 
     <h5>TSLint</h5>
-    <span class="image left"><a href="/assets/images/blog/Angular8/05-TSLint.png" target="_blank"><img
+    <span class="image right"><a href="/assets/images/blog/Angular8/05-TSLint.png" target="_blank"><img
                 src="/assets/images/blog/Angular8/05-TSLint.png" alt="" /></a></span>
     <p>TSLint es una herramienta de análisis de código TypeScript que revisa legibilidad, facilidad de mantenimiento y
         errores de funcionalidad. Puede personalizarse con tus propias reglas, configuraciones y formateadores.</p>
@@ -134,7 +149,7 @@ image: assets/images/blog/Angular8/Angular8.png
     </ol>
 
     <h5>Visual Studio IntelliCode</h5>
-    <span class="image left"><a href="/assets/images/blog/Angular8/06-IntelliCode.png" target="_blank"><img
+    <span class="image right"><a href="/assets/images/blog/Angular8/06-IntelliCode.png" target="_blank"><img
                 src="/assets/images/blog/Angular8/06-IntelliCode.png" alt="" /></a></span>
     <p>Esta extensión provee características asistidas por inteligencia artificial para varios lenguajes de programación
         basadas en contexto y machine learning.</p>
@@ -155,16 +170,18 @@ image: assets/images/blog/Angular8/Angular8.png
         <li>Instala el tipo de letra en tu computadora. En mi caso, instalé los archivos OpenType.</li>
     </ol>
 
-    <h5>Configurar Fira Code en Visual Studio Code</h5>
-    <span class="image left"><a href="/assets/images/blog/Angular8/07-FiraCodeSettings.png" target="_blank"><img
-                src="/assets/images/blog/Angular8/07-FiraCodeSettings.png" alt="" /></a></span>
-    <ol>
-        <li>En la ventana de Visual Studio Code, presiona CTRL+, en Windows o Linux, o CMD+, en MacOS para abrir la
-            pantalla de configuración.</li>
-        <li>Una vez en la pantalla de configuración, haz clic en “Text Editor” y después en la opción “Font”.</li>
-        <li>En el campo “Font Family” escribe “Fira Code” (sin comillas).</li>
-        <li>Activa la casilla “Font Ligatures”</li>
-    </ol>
+    <div class="row">
+        <h5>Configurar Fira Code en Visual Studio Code</h5>
+        <ol>
+            <span class="image right"><a href="/assets/images/blog/Angular8/07-FiraCodeSettings.png"
+                    target="_blank"><img src="/assets/images/blog/Angular8/07-FiraCodeSettings.png" alt="" /></a></span>
+            <li>En la ventana de Visual Studio Code, presiona CTRL+, en Windows o Linux, o CMD+, en MacOS para abrir la
+                pantalla de configuración.</li>
+            <li>Una vez en la pantalla de configuración, haz clic en “Text Editor” y después en la opción “Font”.</li>
+            <li>En el campo “Font Family” escribe “Fira Code” (sin comillas).</li>
+            <li>Activa la casilla “Font Ligatures”</li>
+        </ol>
+    </div>
 
     <h2>Paso 2: Crear nuestra primera app con Angular 8</h2>
     <span class="image left"><a href="/assets/images/blog/Angular8/08-CreateApp.png" target="_blank"><img
@@ -173,20 +190,18 @@ image: assets/images/blog/Angular8/Angular8.png
         <li>Desde la terminal, navega al folder en donde quieres crear tu aplicación. Yo decidí crear un folder nuevo
             para guardar mis apps.</li>
         <li>Una vez dentro del folder donde vas a crear tu app, escribe el siguiente comando:</li>
-        <pre><code>
-        ng new [nombre de tu app]
-    </code></pre>
+        <pre><code>ng new [nombre de tu app]</code></pre>
         <p>Angular CLI comenzará a crear tu aplicación y te presentará algunas opciones. Primero debes indicar si
             quieres agregar Angular Routing a tu app, por lo general vas a necesitarlo, selecciona la opción para
             agregarlo.</p>
-        <p>Después, debes especificar el formato de estilos que va a usar la aplicación, para este caso selecciona CSS.
-        </p>
-        <p>Por último, indica si deseas compartir datos de uso con Google.</p>
+        <li>Después, debes especificar el formato de estilos que va a usar la aplicación, para este caso selecciona CSS.
+        </li>
+        <li>Por último, indica si deseas compartir datos de uso con Google.</li>
         <p>Ahora verifica que se creó un folder con el nombre de tu nueva aplicación.</p>
     </ol>
 
     <h3>Ejecuta la aplicación</h3>
-    <span class="image left"><a href="/assets/images/blog/Angular8/09-VSCodeOpenFolder.png" target="_blank"><img
+    <span class="image right"><a href="/assets/images/blog/Angular8/09-VSCodeOpenFolder.png" target="_blank"><img
                 src="/assets/images/blog/Angular8/09-VSCodeOpenFolder.png" alt="" /></a></span>
     <p>A partir de este paso, comienza a utilizar la terminal integrada de Visual Studio Code, si prefieres otro editor
         de código, puedes seguir usando la terminal de tu sistema operativo para ejecutar comandos.</p>
@@ -198,10 +213,12 @@ image: assets/images/blog/Angular8/Angular8.png
         <li>En la barra de menú, has clic en “View” y después en la opción “Terminal” para abrir la terminal integrada.
         </li>
         <li>Desde esta terminal puedes ejecutar tu aplicación escribiendo:</li>
+        <pre><code>ng serve --open</code></pre>
         <span class="image left"><a href="/assets/images/blog/Angular8/10-VSCodeConsole.png" target="_blank"><img
                     src="/assets/images/blog/Angular8/10-VSCodeConsole.png" alt="" /></a></span>
-        <pre><code>ng serve --open</code></pre>
-        <p>La diferencia entre estas dos opciones es que si usas “-- open” la aplicación se abre automáticamente en tu
+
+        <p>La diferencia entre estas dos opciones es que si usas “-- open” la aplicación se abre automáticamente en
+            tu
             navegador predeterminado, de otra manera, tendrías que ejecutar cualquier navegador y abrir
             http://localhost:4200.</p>
     </ol>
