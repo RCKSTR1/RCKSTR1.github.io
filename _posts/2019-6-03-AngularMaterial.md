@@ -69,6 +69,7 @@ export class AppModule { }</code></pre>
             <li>MatSidenavModule</li>
             <li>MatListModule</li>
         </ul>
+        [foto]
         <p>Ya importados los componentes que vamos a utilizar, podemos llamarlos desde nuestra aplicación.</p>
     </ol>
 
