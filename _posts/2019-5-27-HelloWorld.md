@@ -11,7 +11,7 @@ image: assets/images/blog/HelloWorld/hello.png
 
 <p>Soy de los afortunados que tuvieron la oportunidad de convertirse en lo que querían ser desde niños. Yo no quería ser ni bombero ni astronauta, sino que esperaba los días de escuela en que nos llevaban al laboratorio de computación, a dibujar en Paint con Windows 95, o jugar algún juego en la computadora.</p>
 
-<p>Un día, cuando tenía 8 años, en lugar de abrir Word, o Paint, llegamos al laboratorio y en las pantallas había una ventana desconocida, era el IDE de LOGO. La profesora Vicky nos contó una historia acerca de una tortuga, y escribió en el pizarrón 4 “palabras mágicas” necesarias para mover a la tortuga. Ese fue el día que escribí mi primera línea de código, Ahora podía hacer dibujos escribiendo líneas de código y ver como se iban dibujando en la pantalla. Y ya. desde entonces lo que yo quería hacer era tener una computadora y escribir código para hacer dibujos y regalárselos a todo el mundo.</p>
+<p>Un día, cuando tenía 8 años, en lugar de abrir Word, o Paint, llegamos al laboratorio y en las pantallas había una ventana desconocida, era el IDE de LOGO. La profesora Vicky nos contó una historia acerca de una tortuga, y escribió en el pizarrón 4 “palabras mágicas” necesarias para mover a la tortuga. Ese fue el día que escribí mi primera línea de código, Ahora podía hacer dibujos escribiendo líneas de código y ver como se iban dibujando en la pantalla. Y ya. Desde entonces lo que yo quería hacer era tener una computadora y escribir código para hacer dibujos y regalárselos a todo el mundo.</p>
 
 <p style="text-align:center !important;">
 <span class="image"><img src="/assets/images/blog/HelloWorld/logo_mit.png"></span>
