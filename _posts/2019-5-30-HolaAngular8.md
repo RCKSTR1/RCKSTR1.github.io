@@ -12,7 +12,7 @@ image: assets/images/blog/Angular8/Angular8.png
     <h2>Introducción</h2>
 
     <p>Angular es un framework JavaScript muy popular, usado para desarrollar aplicaciones web, de escritorio y móviles.
-        El desarrollo de aplicaciones con angular, involucra HTML, CSS y TypeScript que posteriormente es compilado a
+        El desarrollo de aplicaciones con Angular, involucra HTML, CSS y TypeScript que posteriormente es compilado a
         JavaScript.</p>
     <p>Usar Angular proporciona ventajas como:</p>
 
@@ -70,10 +70,10 @@ image: assets/images/blog/Angular8/Angular8.png
     </p>
 
     <h3>Node.js</h3>
-    <p>Angular, Angular CLI y las aplicaciones con angular dependen de librerías disponibles como paquetes de NPM.</p>
+    <p>Angular, Angular CLI y las aplicaciones con Angular dependen de librerías disponibles como paquetes de NPM.</p>
 
     <h4>En Linux (Debian)</h4>
-    <p>Los siguientes comandos funcionan en distribuciones de Linux basadas en Debian. Si usas otra distribución, En la
+    <p>Los siguientes comandos funcionan en distribuciones de Linux basadas en Debian. En la
         terminal del sistema, ejecuta las siguientes líneas:</p>
     <pre><code>sudo curl -sL https://deb.nodesource.com/setup_12.x | sudo bash -
 sudo apt-get install -y nodejs</code></pre>
@@ -217,7 +217,7 @@ sudo apt-get install -y nodejs</code></pre>
         <span class="image left"><a href="/assets/images/blog/Angular8/10-VSCodeConsole.png" target="_blank"><img
                     src="/assets/images/blog/Angular8/10-VSCodeConsole.png" alt="" /></a></span>
 
-        <p>La diferencia entre estas dos opciones es que si usas “-- open” la aplicación se abre automáticamente en
+        <p>El modificador "--open" es opcional. La diferencia es que si usas “-- open” la aplicación se abre automáticamente en
             tu
             navegador predeterminado, de otra manera, tendrías que ejecutar cualquier navegador y abrir
             http://localhost:4200.</p>
