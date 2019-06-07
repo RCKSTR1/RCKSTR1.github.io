@@ -97,7 +97,7 @@ sudo apt-get install -y nodejs</code></pre>
     <p>La interfaz de línea de comandos o CLI, es una herramienta que usaremos para inicializar, desarrollar y mantener
         nuestras aplicaciones. Para instalar Angular CLI ejecuta la siguiente línea en la terminal (es posible que
         necesites permisos de root o administrador):</p>
-    <pre><code>npm install -f @angular/cli</code></pre>
+    <pre><code>npm install -g @angular/cli</code></pre>
 
     <h3>Visual Studio Code (o cualquier otro editor de código)</h3>
     <span class="image right"><a href="/assets/images/blog/Angular8/03-VSCodeDownload.png" target="_blank"><img
