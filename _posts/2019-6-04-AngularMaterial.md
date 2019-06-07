@@ -59,13 +59,13 @@ export class AppModule { }</code></pre>
         mejor organizados.</p>
 
     <ol>
-        <li>Crea un nuevo módulo en la raíz de la aplicación. En la consola, ejecuta la siguiente línea:</li>
-        <pre><code>ng generate module material-components --flat=true</code></pre>
+        <li>En la consola, ejecuta la siguiente línea:</li>
+        <pre><code>ng generate module material-component</code></pre>
         <li>Importa el nuevo módulo en app.module.ts</li>
         <div style="text-align: center"><span class="image 4u 12u$(small)"><a
                     href="/assets/images/blog/AngularMaterial/02-CustomModule.png" target="_blank"><img
                         src="/assets/images/blog/AngularMaterial/02-CustomModule.png" alt="" /></a></span></div>
-        <li>Importa y exporta los componentes de Material en el módulo material-components.module.ts</li>
+        <li>Importa y exporta los componentes de Material en el módulo material.module.ts</li>
         <p>Para este ejemplo importaremos los siguientes componentes:</p>
         <div class="row">
             <div class="10u 12u$(small)">
