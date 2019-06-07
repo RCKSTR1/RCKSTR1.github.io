@@ -60,7 +60,7 @@ export class AppModule { }</code></pre>
 
     <ol>
         <li>En la consola, ejecuta la siguiente línea:</li>
-        <pre><code>ng generate module material-component</code></pre>
+        <pre><code>ng generate module material</code></pre>
         <li>Importa el nuevo módulo en app.module.ts</li>
         <div style="text-align: center"><span class="image 4u 12u$(small)"><a
                     href="/assets/images/blog/AngularMaterial/02-CustomModule.png" target="_blank"><img
