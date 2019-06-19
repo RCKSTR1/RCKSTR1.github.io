@@ -9,7 +9,7 @@ author: Adrian Gonzalez
 
 # homepage tiles
 tiles-source: posts # accepts "posts" or "pages"
-tiles-count: 2
+tiles-count: 4
 
 # social settings
 facebook_url: https://www.facebook.com/rckstrblog
