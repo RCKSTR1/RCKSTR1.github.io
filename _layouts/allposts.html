@@ -23,10 +23,17 @@
           <h1>Todos los posts</h1>
         </header>
 
+
+        {% if site.posts.size != 0 %}
+        {% for post in site.posts %}
+        {% assign mod=forloop.index|modulo:2%}
+
+        {% if mod == 1%}
         <div class="row uniform">
-          {% if site.posts.size != 0 %}
-          {% for post in site.posts %}
+          {% endif %}
+
           <div class="6u 12u(medium)">
+
             <div class="row">
               <div class="12u">
                 {% if post.image %}
@@ -59,15 +66,21 @@
             {% endif %}
 
           </div>
-          {% endfor %}
-          {% else %}
-          <h2>Ningún post todavía. </h2>
-          <span class="image fit"><img src="assets/images/this_is_fine.jpg" alt="" /></span>
-          {% endif %}
+          {% if mod == 0%}
         </div>
-
+        {% endif %}
+        {% endfor %}
       </div>
-    </section>
+      {% else %}
+      <div class="row uniform">
+        <h2>Ningún post todavía. </h2>
+        <span class="image fit"><img src="assets/images/this_is_fine.jpg" alt="" /></span>
+      </div>
+      {% endif %}
+  </div>
+
+  </div>
+  </section>
 
   </div>
 
