@@ -1,0 +1,89 @@
+I"�<p>Incorporated provides a great typography, responsive design, author details, semantic markup and more.</p>
+
+<p>You can set customize post covers, and other things directly in the post front matter:</p>
+
+<figure class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="na">layout</span><span class="pi">:</span> <span class="s">post</span>
+
+<span class="na">title</span><span class="pi">:</span> <span class="s">Jekyll Incorporated Features</span>
+<span class="na">subtitle</span><span class="pi">:</span> <span class="s2">"</span><span class="s">What's</span><span class="nv"> </span><span class="s">in</span><span class="nv"> </span><span class="s">the</span><span class="nv"> </span><span class="s">box"</span>
+
+<span class="c1"># Setup post cover image in /images/</span>
+<span class="na">cover_image</span><span class="pi">:</span> <span class="s">blog-cover.jpg</span>
+
+<span class="na">excerpt</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Incorporated</span><span class="nv"> </span><span class="s">provides</span><span class="nv"> </span><span class="s">a</span><span class="nv"> </span><span class="s">great</span><span class="nv"> </span><span class="s">typography,</span><span class="nv"> </span><span class="s">responsive</span><span class="nv"> </span><span class="s">design,</span><span class="nv"> </span><span class="s">author</span><span class="nv"> </span><span class="s">details,</span><span class="nv"> </span><span class="s">semantic</span><span class="nv"> </span><span class="s">markup</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">more."</span>
+
+<span class="c1"># Author details, including Google Plus authorship</span>
+<span class="na">author</span><span class="pi">:</span>
+  <span class="na">name</span><span class="pi">:</span> <span class="s">Karri Saarinen</span>
+  <span class="na">twitter</span><span class="pi">:</span> <span class="s">karrisaarinen</span>
+  <span class="na">gplus</span><span class="pi">:</span> <span class="s">100687498195339762535</span> 
+  <span class="na">bio</span><span class="pi">:</span> <span class="s">Co-founder, Design</span>
+  <span class="na">image</span><span class="pi">:</span> <span class="s">ks.jpg</span>
+  
+<span class="c1"># Keep it as draft, not published in index.html or feed.xml</span>
+<span class="na">draft</span><span class="pi">:</span> <span class="no">false</span></code></pre></figure>
+
+<h4 id="configurable--code-snipped-highlighting">Configurable &amp; Code Snipped Highlighting</h4>
+
+<p>/assets/stylesheets/main.scss:</p>
+
+<figure class="highlight"><pre><code class="language-scss" data-lang="scss"><span class="cm">/* Bodytext font */</span>
+<span class="nv">$font</span><span class="p">:</span> <span class="s2">"Droid Sans"</span><span class="o">,</span> <span class="s2">"Helvetica Neue"</span><span class="o">,</span> <span class="n">Helvetica</span><span class="o">,</span> <span class="n">Arial</span><span class="o">,</span> <span class="nb">sans-serif</span><span class="p">;</span>
+
+<span class="cm">/* Font for headings */</span>
+<span class="nv">$fontheadings</span><span class="p">:</span> <span class="s2">"Droid Sans"</span><span class="o">,</span> <span class="s2">"Helvetica Neue"</span><span class="o">,</span> <span class="n">Helvetica</span><span class="o">,</span> <span class="n">Arial</span><span class="o">,</span> <span class="nb">sans-serif</span><span class="p">;</span>
+
+<span class="cm">/* Text colors */</span>
+<span class="nv">$text</span><span class="p">:</span> <span class="mh">#21272d</span><span class="p">;</span>
+<span class="nv">$textmuted</span><span class="p">:</span> <span class="mh">#848484</span><span class="p">;</span>
+<span class="nv">$accent</span><span class="p">:</span> <span class="mh">#2077b2</span><span class="p">;</span>    </code></pre></figure>
+
+<p>config.yml:</p>
+
+<figure class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="na">inc</span><span class="pi">:</span>
+  <span class="c1"># Blog Information</span>
+  <span class="na">title</span><span class="pi">:</span>        <span class="s2">"</span><span class="s">Jekyll</span><span class="nv"> </span><span class="s">Incorporated"</span>
+  <span class="na">subtitle</span><span class="pi">:</span>     <span class="s2">"</span><span class="s">Modern</span><span class="nv"> </span><span class="s">Jekyll</span><span class="nv"> </span><span class="s">based</span><span class="nv"> </span><span class="s">blog</span><span class="nv"> </span><span class="s">for</span><span class="nv"> </span><span class="s">companies"</span>
+  <span class="na">cover_image</span><span class="pi">:</span>  <span class="s">blog-cover.jpg</span>
+  
+  <span class="c1"># Company information</span>
+  <span class="na">company</span><span class="pi">:</span>      <span class="s">Incorporated</span>
+  <span class="na">url</span><span class="pi">:</span>          <span class="s">http://incorporated.sendtoinc.com/</span>
+  <span class="na">facebook</span><span class="pi">:</span>     <span class="s">sendtoinc</span>
+  <span class="na">twitter</span><span class="pi">:</span>      <span class="s">sendtoinc</span>
+  <span class="na">about_link</span><span class="pi">:</span>   <span class="s">https://sendtoinc.com/about/</span>
+  
+  <span class="c1"># Product Information</span>
+  <span class="na">product_link</span><span class="pi">:</span> <span class="s">http://incorporated.sendtoinc.com/</span>
+  <span class="na">tagline</span><span class="pi">:</span>      <span class="s2">"</span><span class="s">Get</span><span class="nv"> </span><span class="s">a</span><span class="nv"> </span><span class="s">modern</span><span class="nv"> </span><span class="s">blog</span><span class="nv"> </span><span class="s">for</span><span class="nv"> </span><span class="s">your</span><span class="nv"> </span><span class="s">company"</span>
+  
+  <span class="c1"># Comments</span>
+  <span class="na">disqus</span><span class="pi">:</span>
+    <span class="c1"># Eg. "exampleblog" Set to false to disable comments</span>
+    <span class="na">shortname</span><span class="pi">:</span>  <span class="no">false</span>
+  
+  
+  <span class="c1"># Sharing settings</span>
+  <span class="na">sharing</span><span class="pi">:</span>
+    <span class="na">twitter</span><span class="pi">:</span>    <span class="no">false</span>
+    <span class="na">facebook</span><span class="pi">:</span>   <span class="no">false</span>
+    <span class="na">gplus</span><span class="pi">:</span>      <span class="no">false</span>
+    <span class="na">hn</span><span class="pi">:</span>         <span class="no">false</span>
+    
+  
+ <span class="c1"># Analytics     </span>
+  <span class="na">analytics</span><span class="pi">:</span>
+    <span class="na">google</span><span class="pi">:</span> 
+      <span class="c1"># eg. 'UA-123-12'</span>
+      <span class="na">id</span><span class="pi">:</span>       <span class="no">false</span>    </code></pre></figure>
+
+<p><strong>Zoomable images</strong></p>
+<div class="full zoomable"><img src="/images/incorporated.jpg" /></div>
+
+<p><strong>Awesome quotes</strong></p>
+<blockquote>
+  <p>“Effective companies tend to communicate more, their people are curious and they have opinions”</p>
+</blockquote>
+
+<p>Stay tuned for updates.</p>
+:ET
