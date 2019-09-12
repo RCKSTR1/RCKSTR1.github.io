@@ -1,16 +1,15 @@
 /* CONFIGURATION */
 
 /* Bodytext font */
-$font: "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font: "Lato";
 
 /* Font for headings */
-$fontheadings: "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$fontheadings: "Raleway";
 
 /* Text colors */
 $text: #21272d;
 $textmuted: #848484;
 $accent: #2077b2;
-
 
 /* IMPORT CSS FILES */
 @import "bootstrap";

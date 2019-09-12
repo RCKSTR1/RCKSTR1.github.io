@@ -37,32 +37,32 @@ inc:
       
   # Google Fonts
   # eg. 'Droid+Sans:400,700|Droid+Serif:400,700'
-  google_font: 'Droid+Sans:400,700'
+  google_font: 'Raleway:400,700'
   
   # Setup your fonts, colors etc at _assets/stylesheets/main.scss
 
 url:         http://incorporated.sendtoinc.com
 source:      .
 destination: ./_site
-plugins:     ./_plugins
-layouts:     ./_layouts
+plugins_dir:     ./_plugins
+layouts_dir:     ./_layouts
 include:     ['.htaccess']
 exclude:     []
-timezone:    nil
+
 
 # Show future posts
 future:      false
 show_drafts: nil
 limit_posts: 0
-pygments:    true
+highlighter:    pygments
 
-relative_permalinks: true
+relative_permalinks: false
 
 permalink:     pretty
 paginate_path: 'page:num'
 paginate: 10
 
-markdown:      maruku
+markdown:      kramdown
 markdown_ext:  markdown,mkd,mkdn,md
 textile_ext:   textile
 
@@ -93,15 +93,9 @@ kramdown:
   entity_output: as_char
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
-  use_coderay: false
+  enable_coderay: false
 
-  coderay:
-    coderay_wrap: div
-    coderay_line_numbers: inline
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: style
+
 
 redcloth:
   hard_breaks: true

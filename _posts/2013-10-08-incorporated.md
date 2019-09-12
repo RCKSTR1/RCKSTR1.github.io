@@ -1,11 +1,11 @@
 ---
 layout: post
 
-title: Jekyll Incorporated Features
+title: Jekyll Incorporated Features ABCDEFTGHQWER
 subtitle: "What's in the box"
 cover_image: blog-cover.jpg
 
-excerpt: "Incorporated provides a great typography, responsive design, author details, semantic markup and more."
+excerpt: "ABCDEFTGHQWER Incorporated provides a great typography, responsive design, author details, semantic markup and more."
 
 author:
   name: Karri Saarinen
