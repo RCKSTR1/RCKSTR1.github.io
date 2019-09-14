@@ -1,47 +1,60 @@
 <section id="menu">
 
     <!-- Search -->
-    <section>
+    <!-- <section>
         <form class="search" method="get" action="#">
             <input type="text" name="query" placeholder="Search" />
         </form>
-    </section>
+    </section> -->
 
     <!-- Links -->
     <section>
         <ul class="links">
+
+            {% for page in site.pages %}
+            {% if page.layout == "home" %}
+            <li>
+                <a href="{{ "" | absolute_url }}/">
+                    <h3>{{ page.title }}</h3>
+                    <p>{{page.subtitle}}</p>
+                </a>
+            </li>
+            {% endif %}
+            {% endfor %}
+            {% for page in site.pages %}
+            {% if page.layout != "home" and page.nav-menu == true %}
+            <li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
+            {% endif %}
+            {% endfor %}
+
             <li>
                 <a href="#">
-                    <h3>Lorem ipsum</h3>
-                    <p>Feugiat tempus veroeros dolor</p>
+                    <h3>Home</h3>
+                    <p>Inicio, posts mas recientes, anuncios.</p>
                 </a>
             </li>
             <li>
                 <a href="#">
-                    <h3>Dolor sit amet</h3>
-                    <p>Sed vitae justo condimentum</p>
+                    <h3>Blog</h3>
+                    <p>Todos los posts.</p>
                 </a>
             </li>
             <li>
                 <a href="#">
-                    <h3>Feugiat veroeros</h3>
-                    <p>Phasellus sed ultricies mi congue</p>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <h3>Etiam sed consequat</h3>
-                    <p>Porta lectus amet ultricies</p>
+                    <h3>RCKSTR1</h3>
+                    <p>¿Quién soy y por que creé este blog?</p>
                 </a>
             </li>
         </ul>
     </section>
 
     <!-- Actions -->
-    <section>
+    <!--  <section>
         <ul class="actions vertical">
             <li><a href="#" class="button big fit">Log In</a></li>
         </ul>
-    </section>
+    </section> -->
+
+    {% include sidebar/footer.html %}
 
 </section>

@@ -12,11 +12,14 @@ tiles-source: posts # accepts "posts" or "pages"
 tiles-count: 4
 
 # social settings
-facebook_url: https://www.facebook.com/rckstrblog
-github_url: https://github.com/RCKSTR1
-linkedin_url: https://www.linkedin.com/in/adriangonzalezb
-twitter_url: https://twitter.com/agonzalezTJ
-stackoverflow_url: https://stackoverflow.com/users/2088213/rckstr
+socialMediaProfiles: [
+  {label: Facebook, url: https://www.facebook.com/rckstrblog, icon: fa-facebook},
+  {label: GitHub, url: https://github.com/RCKSTR1, icon: fa-github},
+  {label: LinkedIn, url: https://www.linkedin.com/in/adriangonzalezb, icon: fa-linkedin},
+  {label: Twitter, url: https://twitter.com/agonzalezTJ, icon: fa-twitter},
+  {label: Stack Overflow, url: https://stackoverflow.com/users/2088213/rckstr, icon: fa-stack-overflow},
+  {label: Email, url: "mailto:rckstr@outlook.com", icon: fa-envelope},
+]
 
 # build settings
 markdown: kramdown

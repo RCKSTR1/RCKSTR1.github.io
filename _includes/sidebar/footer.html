@@ -1,12 +1,9 @@
 <section id="footer">
     <ul class="icons">
-        <li><a href="#" class="fa-twitter"><span class="label">Twitter</span></a></li>
-        <li><a href="#" class="fa-facebook"><span class="label">Facebook</span></a></li>
-        <li><a href="#" class="fa-instagram"><span class="label">Instagram</span></a></li>
-        <li><a href="#" class="fa-rss"><span class="label">RSS</span></a></li>
-        <li><a href="#" class="fa-envelope"><span class="label">Email</span></a></li>
+        {% for smp in site.socialMediaProfiles %}
+        <li><a href="{{smp.url}}" target="_blank" class="{{smp.icon}}"><span class="label">{{smp.label}}</span></a></li>
+        {% endfor %}
     </ul>
     <p class="copyright">&copy; {{ site.title }}. Design: <a href="http://html5up.net" target="_blank">HTML5
-            UP</a>. Jekyll integration: <a href="http://andrewbanchi.ch" target="_blank">Andrew
-            Banchich</a>. Images: <a href="http://unsplash.com" target="_blank">Unsplash</a>.</p>
+            UP</a>.</p>
 </section>
