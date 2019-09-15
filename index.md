@@ -1,8 +1,10 @@
 ---
 layout: home
 title: Home
+subtitle: 'Inicio, posts mas recientes, anuncios.'
 landing-title: 'Past flying cars and time machines'
 description: null
+nav-menu: true
 image: null
 author: null
 show_tile: false

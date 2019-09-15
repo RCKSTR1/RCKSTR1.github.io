@@ -23,28 +23,12 @@
             {% endfor %}
             {% for page in site.pages %}
             {% if page.layout != "home" and page.nav-menu == true %}
-            <li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
+            <li><a href="{{ page.url | absolute_url }}">
+                    <h3>{{ page.title }}</h3>
+                    <p>{{page.subtitle}}</p>
+                </a></li>
             {% endif %}
             {% endfor %}
-
-            <li>
-                <a href="#">
-                    <h3>Home</h3>
-                    <p>Inicio, posts mas recientes, anuncios.</p>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <h3>Blog</h3>
-                    <p>Todos los posts.</p>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <h3>RCKSTR1</h3>
-                    <p>¿Quién soy y por que creé este blog?</p>
-                </a>
-            </li>
         </ul>
     </section>
 
