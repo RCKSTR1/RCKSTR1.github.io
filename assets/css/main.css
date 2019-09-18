@@ -2163,6 +2163,19 @@ dl dd {
 
 /* Post */
 
+article.post.random-quote {
+	padding: 3em 3em 0 3em;
+}
+
+article.post.random-quote>header {
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: scroll;
+	background-size: cover;
+	/*Margin and padding*/
+	margin: -3em 0 0 0;
+}
+
 .post {
 	padding: 3em 3em 1em 3em;
 	background: #ffffff;
