@@ -13,7 +13,7 @@ show_tile: false
 ---
 
 <!-- Post -->
-<!-- {% include postpreview.html %} -->
+{% include postpreview.html %}
 
 <!-- Post -->
 <article class="post">

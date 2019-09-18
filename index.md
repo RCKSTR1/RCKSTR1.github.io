@@ -2,7 +2,6 @@
 layout: home
 title: Home
 subtitle: 'Inicio, posts mas recientes, anuncios.'
-landing-title: 'Past flying cars and time machines'
 description: null
 order: 1
 nav-menu: true
@@ -12,19 +11,19 @@ author: null
 show_tile: false
 ---
 
-<!-- Post -->
-<!-- {% include postpreview.html %} -->
+<!-- Latest Post  preview-->
+{% for latestPost in site.posts limit:1 %}
+<!-- Mini Post -->
+{% include postpreview.html post=latestPost %}
+{% else %}
+{% endfor %}
 
 <!-- Post -->
 <article class="post">
 	<header>
 		<div class="title">
-			<h2><a href="#">Elements</a></h2>
-			<p>Lorem ipsum dolor amet nullam consequat etiam feugiat</p>
-		</div>
-		<div class="meta">
-			<time class="published" datetime="2015-10-18">October 18, 2015</time>
-			<a href="#" class="author"><span class="name">Jane Doe</span><img src="images/avatar.jpg" alt="" /></a>
+			<h2>Past flying cars and time machines</h2>
+			<p>11111011101</p>
 		</div>
 	</header>
 

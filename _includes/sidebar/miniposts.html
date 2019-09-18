@@ -1,6 +1,6 @@
 <section>
     <div class="mini-posts">
-        {% for post in site.posts %}
+        {% for post in site.posts limit:include.length %}
         <!-- Mini Post -->
         <article class="mini-post">
             <header>
