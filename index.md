@@ -4,7 +4,9 @@ title: Home
 subtitle: 'Inicio, posts mas recientes, anuncios.'
 landing-title: 'Past flying cars and time machines'
 description: null
+order: 1
 nav-menu: true
+header-menu: false
 image: null
 author: null
 show_tile: false
