@@ -13,12 +13,13 @@ tiles-count: 4
 
 # social settings
 socialMediaProfiles: [
-  {label: Facebook, url: https://www.facebook.com/rckstrblog, icon: fa-facebook},
-  {label: GitHub, url: https://github.com/RCKSTR1, icon: fa-github},
-  {label: LinkedIn, url: https://www.linkedin.com/in/adriangonzalezb, icon: fa-linkedin},
-  {label: Twitter, url: https://twitter.com/agonzalezTJ, icon: fa-twitter},
-  {label: Stack Overflow, url: https://stackoverflow.com/users/2088213/rckstr, icon: fa-stack-overflow},
-  {label: Email, url: "mailto:rckstr@outlook.com", icon: fa-envelope},
+  { label: Facebook, url: https://www.facebook.com/rckstrblog, icon: fa-facebook },
+  { label: GitHub, url: https://github.com/RCKSTR1, icon: fa-github },
+  { label: LinkedIn, url: https://www.linkedin.com/in/adriangonzalezb, icon: fa-linkedin },
+  { label: Twitter, url: https://twitter.com/agonzalezTJ, icon: fa-twitter },
+  { label: Spotify, url: 'https://open.spotify.com/user/dangobah?si=WwZ1FOusRJ-pDbcpV38P-g', icon: fa-spotify },
+  { label: Stack Overflow, url: https://stackoverflow.com/users/2088213/rckstr, icon: fa-stack-overflow },
+  { label: Email, url: "mailto:rckstr@outlook.com", icon: fa-envelope },
 ]
 
 # build settings
