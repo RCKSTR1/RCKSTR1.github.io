@@ -7,9 +7,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: https://rckstr1.github.io # the base hostname & protocol for your site
 author: Adrian Gonzalez
 
-# homepage tiles
-tiles-source: posts # accepts "posts" or "pages"
-tiles-count: 4
+# sidebar lists
+miniposts-count: 4
+postlist-count: 4
 
 # social settings
 socialMediaProfiles: [
