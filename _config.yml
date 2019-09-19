@@ -7,6 +7,10 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: https://rckstr1.github.io # the base hostname & protocol for your site
 author: Adrian Gonzalez
 
+authors: [
+  {id: "rckstr", name: "Adrian Gonzalez", photo: "images/authors/adrian.jpg"}
+]
+
 # dynamic lists
 home-posts-preview-count: 2
 miniposts-count: 4

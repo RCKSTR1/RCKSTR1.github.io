@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<!--
+	Future Imperfect by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+{% include head.html %}
+
+<body>
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Header -->
+        {% include header.html %}
+
+        <!-- Menu -->
+        {% include menu.html %}
+
+        <!-- Main -->
+        <div id="main">
+
+            {{ content }}
+
+            {% include pagination.html %}
+
+            {% include contactform.html %}
+        </div>
+
+        <!-- Sidebar -->
+        <section id="sidebar">
+
+            {% include sidebar/postslist.html length=site.postlist-count %}
+
+        </section>
+
+    </div>
+
+    <!-- Scripts -->
+    {% include scripts.html %}
+
+</body>
+
+</html>

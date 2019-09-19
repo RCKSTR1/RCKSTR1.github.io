@@ -11,12 +11,12 @@ author: null
 show_tile: false
 ---
 
-{% include randomquote.html %}
+<!-- {% include randomquote.html %} -->
 
 <!-- Latest Post  preview-->
 {% for latestPost in site.posts limit:site.home-posts-preview-count %}
 <!-- Mini Post -->
-{% include postpreview.html post=latestPost %}
+{% include postpreview.html post=latestPost isLatest=forloop.first %}
 {% else %}
 {% endfor %}
 

@@ -1,14 +1,23 @@
 <section>
     <div class="mini-posts">
         {% for post in site.posts limit:include.length %}
+
+        {% for author in site.authors %}
+        {% if author.id == post.author %}
+        {% assign postAuthor = author %}
+        {% break %}
+        {% endif %}
+        {% endfor %}
+
         <!-- Mini Post -->
         <article class="mini-post">
             <header>
                 <h3><a href="{{ post.url  | relative_url }}">{{post.title}}</a></h3>
                 <time class="published" datetime="{{ post.date }}">{{ post.date | date: '%B %d, %Y' }}</time>
-                <a href="{{ post.url  | relative_url }}" class="author"><img src="{{post.author-image}}" alt="" /></a>
+                <a href="{{ post.url  | relative_url }}" class="author"><img src="{{postAuthor.photo | relative_url}}"
+                        alt="" /></a>
             </header>
-            <a href="#" class="image"><img src="{{post.image}}" alt="" /></a>
+            <a href="{{ post.url  | relative_url }}" class="image"><img src="{{post.image}}" alt="" /></a>
         </article>
         {% else %}
         <article class="mini-post">
