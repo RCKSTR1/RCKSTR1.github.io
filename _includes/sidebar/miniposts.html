@@ -1,6 +1,6 @@
 <section>
     <div class="mini-posts">
-        {% for post in site.posts limit:include.length offset:1 %}
+        {% for post in site.posts limit:include.length offset:include.skip %}
 
         {% for author in site.authors %}
         {% if author.id == post.author %}

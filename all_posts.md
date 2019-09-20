@@ -2,8 +2,7 @@
 layout: allposts
 title: 'Blog'
 subtitle: 'Todos los posts.'
-landing-title: 'Past flying cars and time machines'
-description: null
+description: 'Todos los posts.'
 order: 2
 nav-menu: true
 header-menu: true

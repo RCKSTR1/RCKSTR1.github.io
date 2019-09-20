@@ -2818,6 +2818,40 @@ body.single #wrapper {
 
 /* Intro */
 
+.author-photo-container {
+	text-align: center !important;
+}
+
+.author-photo {
+	border-bottom: 0;
+	display: inline-block;
+	margin: 0 0 1em 0;
+	overflow: hidden;
+	position: relative;
+	width: 8em;
+}
+
+.author-photo:before {
+	/* background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100px' height='100px' viewBox='0 0 100 100' preserveAspectRatio='none' zoomAndPan='disable'%3E%3Cpolygon points='0,0 100,0 100,25 50,0 0,25' style='fill:white' /%3E%3Cpolygon points='0,100 100,100 100,75 50,100 0,75' style='fill:white' /%3E%3C/svg%3E");
+	background-position: top left;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	content: ''; */
+	display: block;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+.author-photo img {
+	display: block;
+	/* margin-left: -0.25em; */
+	margin-bottom: .04em;
+	width: 100%;
+}
+
 #intro .logo {
 	border-bottom: 0;
 	display: inline-block;
@@ -2887,6 +2921,11 @@ body.single #wrapper {
 	}
 	#intro header> :last-child {
 		margin-bottom: 0;
+	}
+	.author-photo img {
+		
+		margin-bottom: 0em;
+		
 	}
 }
 

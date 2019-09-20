@@ -1,8 +1,8 @@
 ---
 layout: home
 title: Home
-subtitle: 'Inicio, posts mas recientes, anuncios.'
-description: null
+subtitle: null
+description: 'Inicio, posts mas recientes, anuncios.'
 order: 1
 nav-menu: true
 header-menu: false
