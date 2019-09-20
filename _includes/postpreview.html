@@ -12,8 +12,7 @@
         <div class="title">
             {% if include.isLatest %}
             <h2><a href="{{ include.post.url  | relative_url }}">
-                    {{include.post.title}}
-                    <i class="icon fa-bolt"></i><i class="icon fa-bolt"></i><i class="icon fa-bolt"></i>
+                    <i class="icon fa-bolt"></i>{{include.post.title}}
                 </a>
             </h2>
             {% else %}
