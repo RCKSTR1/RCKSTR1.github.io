@@ -4,8 +4,10 @@ title: Angular + Material
 description: Crea aplicaciones modernas y atractivas con Angular y Material Design.
 image: images/blog/AngularMaterial/materialdesign.png
 author: rckstr
-preview-content: Material Design es un lenguaje visual que sintetiza los principios clásicos de buen diseño con la innovación de tecnología y ciencia. Material Design tiene como objetivo desarrollar un sistema que unifique la experiencia de usuario a través de diferentes plataformas, dispositivos y métodos de entrada y al mismo tiempo, proveer una
-        base personalizable y flexible para la innovación.
+preview-content: "Material Design es un lenguaje visual que sintetiza los principios clásicos de buen diseño con la
+innovación de tecnología y ciencia. Material Design tiene como objetivo desarrollar un sistema que unifique la
+experiencia de usuario a través de diferentes plataformas, dispositivos y métodos de entrada y al mismo tiempo, proveer
+una base personalizable y flexible para la innovación."
 ---
 
 <div class="post-content">
@@ -106,8 +108,8 @@ export class AppModule { }</code></pre>
     <p>Después de instalar hammerjs, debes importarlo en el archivo main.ts.</p>
     <pre><code>import 'hammerjs';</code></pre>
     <div style="text-align: center">
-        <span class="image 4u 12u$(small)"><a href="/images/blog/AngularMaterial/04-hammerjs.png"
-                target="_blank"><img src="/images/blog/AngularMaterial/04-hammerjs.png" alt="" /></a></span>
+        <span class="image 4u 12u$(small)"><a href="/images/blog/AngularMaterial/04-hammerjs.png" target="_blank"><img
+                    src="/images/blog/AngularMaterial/04-hammerjs.png" alt="" /></a></span>
     </div>
 
     <h4>Iconos</h4>
@@ -115,8 +117,8 @@ export class AppModule { }</code></pre>
         <strong>head</strong> del archivo index.html.</p>
     <pre><code>&lt;link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"&gt;</code></pre>
     <div style="text-align: center">
-        <span class="image 4u 12u$(small)"><a href="/images/blog/AngularMaterial/05-Icons.png"
-                target="_blank"><img src="/images/blog/AngularMaterial/05-Icons.png" alt="" /></a></span>
+        <span class="image 4u 12u$(small)"><a href="/images/blog/AngularMaterial/05-Icons.png" target="_blank"><img
+                    src="/images/blog/AngularMaterial/05-Icons.png" alt="" /></a></span>
     </div>
 
     <h2>Paso 4: Construir nuestra interfaz de usuario</h2>
@@ -211,8 +213,8 @@ h1.app-app-name {
     <pre><code>ng serve --open</code></pre>
     <p>Listo. Tenemos nuestra primera aplicación con Angular 8 y Material UI.</p>
     <div style="text-align: center">
-        <span class="image 4u 12u$(small)"><a href="/images/blog/AngularMaterial/06-ItWorks.png"
-                target="_blank"><img src="/images/blog/AngularMaterial/06-ItWorks.png" alt="" /></a></span>
+        <span class="image 4u 12u$(small)"><a href="/images/blog/AngularMaterial/06-ItWorks.png" target="_blank"><img
+                    src="/images/blog/AngularMaterial/06-ItWorks.png" alt="" /></a></span>
     </div>
 
     <h2>Conclusión</h2>
