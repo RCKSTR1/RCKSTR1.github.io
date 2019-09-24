@@ -1,5 +1,32 @@
 <ul class="actions post-pagination">
-    <li><a href="" class="disabled button big"><i class="fa fa-chevron-left"></i> Post anterior</a></li>
-    <li><a href="" class="button big">Todos los posts</a></li>
-    <li><a href="#" class="button big">Siguiente post <i class="fa fa-chevron-right"></i></a></li>
+    {% for post in site.posts %}
+
+    {% if post.id == include.currentPost %}
+    {% assign currentIndex = forloop.index0 %}
+    {% assign latest = false %}
+    {% assign oldest = false %}
+
+    {% if forloop.first %}
+    {% assign latest = true %}
+    {% endif %}
+
+    {% if forloop.last %}
+    {% assign oldest = true %}
+    {% endif %}
+
+    {% assign nextIndex = forloop.index0|minus:1 %}
+    {% assign previousIndex = forloop.index0|plus:1 %}
+    {% endif %}
+
+    {% endfor %}
+
+    <li><a href="{{ site.posts[previousIndex].url | relative_url}}"
+            class="button big{% if oldest==true %} disabled{% endif %}"><i class="fa fa-chevron-left"></i>
+            Post anterior</a></li>
+
+    <li><a href="{{"all_posts.html" | relative_url}}" class="button big">Todos los posts</a></li>
+
+    <li><a href="{{ site.posts[nextIndex].url | relative_url}}"
+            class="button big{% if latest==true %} disabled{% endif %}">Siguiente post <i
+                class="fa fa-chevron-right"></i></a></li>
 </ul>
