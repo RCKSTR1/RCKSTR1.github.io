@@ -21,10 +21,25 @@
 
         <!-- Main -->
         <div id="main">
+            <article class="post">
+                {% include post/postheader.html post=page%}
 
-            {{ content }}
+                {{ content }}
 
-            {% include pagination.html currentPost=page.id %}
+                <!-- <footer>
+                    <ul class="stats">
+                        <li><a href="#">General</a></li>
+                        <li><a href="#" class="icon fa-heart">28</a></li>
+                        <li><a href="#" class="icon fa-comment">128</a></li>
+                    </ul>
+                </footer> -->
+
+                {% include pagination.html currentPost=page.id %}
+            </article>
+
+
+
+
 
             {% include contactform.html %}
         </div>

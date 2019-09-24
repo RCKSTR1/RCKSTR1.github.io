@@ -1,0 +1,26 @@
+{% for author in site.authors %}
+{% if author.id == include.post.author %}
+{% assign postAuthor = author %}
+{% break %}
+{% endif %}
+{% endfor %}
+
+<header>
+    <div class="title">
+        {% if include.isLatest %}
+        <h2><a href="{{ include.post.url  | relative_url }}">
+                <i class="icon fa-bolt"></i>{{include.post.title}}
+            </a>
+        </h2>
+        {% else %}
+        <h2><a href="{{ include.post.url  | relative_url }}">{{include.post.title}}</a></h2>
+        {% endif %}
+        <p>{{include.post.description}}</p>
+    </div>
+    <div class="meta">
+        <time class="published" datetime="{{include.post.date}}">{{ include.post.date | date: '%B %d, %Y' }}</time>
+        <a href="{{ include.post.url  | relative_url }}" class="author"><span
+                class="name">{{postAuthor.name}}</span><img src="{{ postAuthor.photo | relative_url }}" alt="" /></a>
+    </div>
+</header>
+<span class="image featured"><img src="{{ site.baseurl }}/{{ include.post.image }}" alt="" /></span>
