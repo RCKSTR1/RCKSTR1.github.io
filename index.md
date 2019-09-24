@@ -24,4 +24,4 @@ show_tile: false
 <!-- Pagination -->
 <!-- {% include pagination.html %} -->
 
-{% include contactform.html %}
+

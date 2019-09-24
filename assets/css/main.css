@@ -1893,6 +1893,21 @@ ul.actions.pagination .previous:before {
 	}
 }
 
+ul.actions.post-pagination{
+	text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+	ul.actions.post-pagination li {
+		margin-bottom: 1em;
+		width: 100%;
+		padding: 0px;
+	}
+	ul.actions.post-pagination a {
+		width: 100%;
+	}
+}
+
 @media screen and (max-width: 736px) {
 	ul.actions.pagination .next, ul.actions.pagination .previous {
 		min-width: 18em;
@@ -2923,9 +2938,7 @@ body.single #wrapper {
 		margin-bottom: 0;
 	}
 	.author-photo img {
-		
 		margin-bottom: 0em;
-		
 	}
 }
 
