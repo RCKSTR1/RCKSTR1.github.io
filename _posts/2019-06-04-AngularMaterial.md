@@ -71,9 +71,13 @@ export class AppModule { }</code></pre>
         <li>En la consola, ejecuta la siguiente línea:</li>
         <pre><code>ng generate module material</code></pre>
         <li>Importa el nuevo módulo en app.module.ts</li>
-        <div style="text-align: center"><span class="image 4u 12u$(small)"><a
-                    href="/images/blog/AngularMaterial/02-CustomModule.png" target="_blank"><img
-                        src="/images/blog/AngularMaterial/02-CustomModule.png" alt="" /></a></span></div>
+
+        <span class="image 12u$" style="text-align: center;">
+            <a href="/images/blog/AngularMaterial/02-CustomModule.png" target="_blank">
+                <img src="/images/blog/AngularMaterial/02-CustomModule.png" alt="" style="display: inline;" />
+            </a>
+        </span>
+
         <li>Importa y exporta los componentes de Material en el módulo material.module.ts</li>
         <p>Para este ejemplo importaremos los siguientes componentes:</p>
         <div class="row">
@@ -111,19 +115,23 @@ export class AppModule { }</code></pre>
     <pre><code>npm install --save hammerjs</code></pre>
     <p>Después de instalar hammerjs, debes importarlo en el archivo main.ts.</p>
     <pre><code>import 'hammerjs';</code></pre>
-    <div style="text-align: center">
-        <span class="image 4u 12u$(small)"><a href="/images/blog/AngularMaterial/04-hammerjs.png" target="_blank"><img
-                    src="/images/blog/AngularMaterial/04-hammerjs.png" alt="" /></a></span>
-    </div>
+
+    <span class="image 12u$" style="text-align: center;">
+        <a href="/images/blog/AngularMaterial/04-hammerjs.png" target="_blank">
+            <img src="/images/blog/AngularMaterial/04-hammerjs.png" alt="" style="display: inline;" />
+        </a>
+    </span>
 
     <h4>Iconos</h4>
     <p>Para poder utilizar los iconos de Material UI, tenemos que cargar la fuente de Material Icons en el bloque
         <strong>head</strong> del archivo index.html.</p>
     <pre><code>&lt;link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"&gt;</code></pre>
-    <div style="text-align: center">
-        <span class="image 4u 12u$(small)"><a href="/images/blog/AngularMaterial/05-Icons.png" target="_blank"><img
-                    src="/images/blog/AngularMaterial/05-Icons.png" alt="" /></a></span>
-    </div>
+
+    <span class="image 12u$" style="text-align: center;">
+        <a href="/images/blog/AngularMaterial/05-Icons.png" target="_blank">
+            <img src="/images/blog/AngularMaterial/05-Icons.png" alt="" style="display: inline;" />
+        </a>
+    </span>
 
     <h2>Paso 4: Construir nuestra interfaz de usuario</h2>
     <p>En este paso crearemos un ejemplo de interfaz de usuario responsiva utilizando los componentes de Material UI
@@ -216,10 +224,12 @@ h1.app-app-name {
     <p>En la consola integrada de Visual Studio Code, ejecuta la aplicación.</p>
     <pre><code>ng serve --open</code></pre>
     <p>Listo. Tenemos nuestra primera aplicación con Angular 8 y Material UI.</p>
-    <div style="text-align: center">
-        <span class="image 4u 12u$(small)"><a href="/images/blog/AngularMaterial/06-ItWorks.png" target="_blank"><img
-                    src="/images/blog/AngularMaterial/06-ItWorks.png" alt="" /></a></span>
-    </div>
+
+    <span class="image 12u$" style="text-align: center;">
+        <a href="/images/blog/AngularMaterial/06-ItWorks.png" target="_blank">
+            <img src="/images/blog/AngularMaterial/06-ItWorks.png" alt="" style="display: inline; max-width: 50%;" />
+        </a>
+    </span>
 
     <h2>Conclusión</h2>
     <p>En este post vimos los pasos necesarios para utilizar componentes de Material Design en nuestras aplicaciones con
