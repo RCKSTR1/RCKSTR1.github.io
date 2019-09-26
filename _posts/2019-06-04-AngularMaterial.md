@@ -26,7 +26,7 @@ una base personalizable y flexible para la innovación."
 
     <h2>Paso 1: Instalar Angular Material, Angular CDK y Angular Animations</h2>
 
-    <blockquote> Si necesitas ayuda creando una aplicación de Angular, puedes ver los detalles en el post <i><a
+    <blockquote>Si necesitas ayuda creando una aplicación de Angular, puedes ver los detalles en el post <i><a
                 href="{% link _posts/2019-05-30-HolaAngular8.md %}" target="_blank">"¡Hola Angular 8!"</a></i>.
     </blockquote>
 
@@ -53,9 +53,13 @@ una base personalizable y flexible para la innovación."
 })
 export class AppModule { }</code></pre>
         </div>
-        <div class="4u 12u$(small)"><span class="image fit"><a
-                    href="/images/blog/AngularMaterial/01-ImportAnimations.png" target="_blank"><img
-                        src="/images/blog/AngularMaterial/01-ImportAnimations.png" alt="" /></a></span></div>
+        <div class="4u 12u$(small)">
+            <span class="image fit">
+                <a href="/images/blog/AngularMaterial/01-ImportAnimations.png" target="_blank">
+                    <img src="/images/blog/AngularMaterial/01-ImportAnimations.png" alt="" />
+                </a>
+            </span>
+        </div>
     </div>
 
     <h2>Paso 3: Importar los componentes de Material UI</h2>

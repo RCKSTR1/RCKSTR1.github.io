@@ -1893,7 +1893,7 @@ ul.actions.pagination .previous:before {
 	}
 }
 
-ul.actions.post-pagination{
+ul.actions.post-pagination {
 	text-align: center;
 }
 
@@ -2791,6 +2791,12 @@ body.single #wrapper {
 }
 
 /* Main */
+
+@media screen and (min-width:1280px) {
+	#main {
+		max-width: 69.15%;
+	}
+}
 
 #main {
 	-moz-flex-grow: 1;
