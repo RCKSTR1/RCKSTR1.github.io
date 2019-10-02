@@ -33,7 +33,7 @@ show_tile: false
             <div class="12u">
                 <!-- Mini Post -->
                 <article class="mini-post">
-                    <header>
+                    <header style="padding-right: 1.25em;">
                         <h3><a href="{{ post.url  | relative_url }}">{{post.title}}</a></h3>
                         <time class="published" datetime="{{ post.date }}">{{ post.date | date: '%B %d, %Y' }}
                             <br>Por {{postAuthor.name}}</time>
