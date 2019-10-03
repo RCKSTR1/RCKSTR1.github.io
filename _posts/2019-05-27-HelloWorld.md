@@ -13,9 +13,11 @@ computación, a dibujar en Paint con Windows 95, o jugar algún juego en la comp
 <div class="post-content">
     <iframe class="image left" src="https://open.spotify.com/embed/user/dangobah/playlist/5zy1XBGtJ3OB1828W4XT9D"
         width="300" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-    <p>Mi nombre es Adrian, soy de Tijuana, Baja California, “la ciudad mas peligrosa del mundo” dicen algunos. Pero a
+    <p>
+        Mi nombre es Adrian, soy de Tijuana, Baja California, “la ciudad mas peligrosa del mundo” dicen algunos. Pero a
         mi no me ha traído mas que cosas buenas. Aquí nací y crecí. Es una ciudad llena de oportunidades, que tiene
-        oídos para las buenas ideas, sin importar de donde vengan.</p>
+        oídos para las buenas ideas, sin importar de donde vengan.
+    </p>
 
     <p>Soy de los afortunados que tuvieron la oportunidad de convertirse en lo que querían ser desde niños. Yo no quería
         ser ni bombero ni astronauta, sino que esperaba los días de escuela en que nos llevaban al laboratorio de
