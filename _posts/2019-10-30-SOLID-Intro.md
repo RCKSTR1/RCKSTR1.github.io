@@ -11,9 +11,10 @@ objetos. Pero, ¿qué es el diseño orientado a objetos? ¿Cuáles son sus venta
 
 <div class="post-content">
     <iframe allow="encrypted-media" allowtransparency="true" class="image left" frameborder="0" height="300"
-        src="https://open.spotify.com/embed/playlist/0HOaqWkjGIaGvaxpCt4T7U" width="300"></iframe>
+        src="https://open.spotify.com/embed/playlist/2XqR85eq5Ae0lSgMXoIj84" width="300"></iframe>
 
     <h2>Introducción</h2>
+
     <p>
         Los principales lenguajes modernos de programación están influenciados por el paradigma orientado a objetos.
         Pero, ¿qué es el diseño orientado a objetos? ¿Cuáles son sus ventajas y desventajas?
