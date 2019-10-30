@@ -3,7 +3,7 @@ layout: post
 title: '¿Qué es SOLID?'
 description: 'Una breve (muuy breve) introducción a los 5 primeros principios del diseño orientado a objetos. Escribe
 código limpio, fácil de mantener y extender.'
-image: images/blog/GLTrack4/Banner-GLTrack4.jpg
+image: images/blog/SOLIDIntro/Banner-SolidIntro.jpg
 author: rckstr
 preview-content: 'Los principales lenguajes modernos de programación están influenciados por el paradigma orientado a
 objetos. Pero, ¿qué es el diseño orientado a objetos? ¿Cuáles son sus ventajas y desventajas?'
@@ -108,5 +108,15 @@ objetos. Pero, ¿qué es el diseño orientado a objetos? ¿Cuáles son sus venta
             <a href="http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod "
                 target="_blank">http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod</a>
         </li>
+    </ul>
+
+    <h2>Créditos</h2>
+    <ul>
+        <li>
+            Elementos de diseño en el banner.
+            <a href="http://www.freepik.com" target="_blank">Designed by rawpixel.com /
+                Freepik</a>
+        </li>
+
     </ul>
 </div>
